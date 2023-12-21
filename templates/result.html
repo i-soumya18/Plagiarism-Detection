@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plagiarism Checker - Result</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #d9a7c7, #fffcdc); /* Gradient background */
+            margin: 0;
+            padding: 0;
+            color: #333; /* Darker text color */
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 30px;
+            text-align: center;
+            background-color: #f3f3f3; /* Light gray background */
+            border-radius: 8px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease; /* Fade-in animation */
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #524763; /* Dark purple */
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        .result-box {
+            background-color: #f3f3f3; /* Light gray background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease; /* Fade-in animation */
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #524763; /* Dark purple */
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .success-icon {
+            font-size: 4em;
+            color: #4caf50; /* Green color */
+            margin-bottom: 20px;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            color: #888; /* Light gray text color */
+            text-align: center;
+            animation: fadeIn 1s ease; /* Fade-in animation */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Plagiarism Checker - Result</h1>
+        <div class="result-box">
+            <i class="success-icon">✔️</i>
+            <p>Plagiarism Check Result:</p>
+            <p>{{ result }}</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Made with ❤️ by SOUMYA
+    </footer>
+</body>
+
+</html>
