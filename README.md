@@ -1,4 +1,5 @@
 # Plagiarism Detection
+![Screenshot 2023-12-21 170503](https://github.com/i-soumya18/Plagiarism-Detection/assets/119044189/9c689285-c162-49ff-b585-e18ff581ced6)
 
 This project implements a simple Plagiarism Detection web application using Flask, allowing users to check for similarity between provided text and a corpus of texts using various similarity metrics.
 
@@ -44,8 +45,10 @@ This project implements a simple Plagiarism Detection web application using Flas
 3. Enter a text in the input field and click "Check for Plagiarism."
 
 ## Screenshots
-![Plagirasim Detection](attendance_tracker_screenshot_2.png)
-![Plagirasim Detection](attendance_tracker_screenshot_2.png)
+![Screenshot 2023-12-21 170709](https://github.com/i-soumya18/Plagiarism-Detection/assets/119044189/c187dde0-446b-49ba-838d-0c4ae3a28cfb)
+
+![Screenshot 2023-12-21 170649](https://github.com/i-soumya18/Plagiarism-Detection/assets/119044189/b8e79d76-05e5-4484-9cae-7100830f667b)
+
 
 ## Project Structure
 
